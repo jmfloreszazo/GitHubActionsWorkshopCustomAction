@@ -1,0 +1,13 @@
+name: 'GitHubActionsWorkshopCustomAction'
+description: 'Show your greeting'
+inputs:
+  greeting:
+    description: 'Your greeting'
+    required: true
+    default: 'Hello World!'
+outputs:
+  time:
+    description: 'The time of the message'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

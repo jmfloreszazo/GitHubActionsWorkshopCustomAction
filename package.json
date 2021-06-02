@@ -1,0 +1,24 @@
+{
+  "name": "GitHubActionsWorkshopCustomAction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmfloreszazo/GitHubActionsWorkshopNugetTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmfloreszazo/GitHubActionsWorkshopNugetTesting/issues"
+  },
+  "homepage": "https://github.com/jmfloreszazo/GitHubActionsWorkshopNugetTesting#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
